@@ -11,13 +11,13 @@ import android.widget.Toast;
 public class L {
     private static String TAG="LogPup";
 
-    public void d(String msg){
+    public static void d(String msg){
         Log.d(TAG,msg);
     }
-    public void e(String msg){
+    public static void e(String msg){
         Log.d(TAG,msg);
     }
-    public void t(Context con, String msg){
+    public static void t(Context con, String msg){
         Toast.makeText(con,msg,Toast.LENGTH_LONG).show();
     }
 }
